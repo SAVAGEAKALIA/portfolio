@@ -48,6 +48,9 @@ A modern, responsive personal portfolio website showcasing my skills, experience
 
 3. Open `index.html` in your browser or use a local server:
    ```bash
+   # Using Live Server
+   Opne in browser
+
    # Using Python
    python -m http.server 8000
    

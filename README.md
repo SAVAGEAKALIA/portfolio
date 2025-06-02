@@ -113,8 +113,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 👤 Author
 
 **Saviour Davies Akalia**
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your LinkedIn](https://linkedin.com/in/yourusername)
+- GitHub: [@SAVAGEAKALIA](https://github.com/SAVAEGAKALIA)
+- LinkedIn: [Saviour](https://linkedin.com/in/saviourakalia)
 - Email: Akaliasaviour@gmail.com
 
 ## 🙏 Acknowledgments

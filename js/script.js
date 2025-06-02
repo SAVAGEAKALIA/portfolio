@@ -13,6 +13,13 @@ document.addEventListener('DOMContentLoaded', () => {
     const barBox = document.querySelector('.bars-box');
     const header = document.querySelector('header');
 
+    // Initialize first section with animation sequence
+    barBox.classList.add('active');
+    setTimeout(() => {
+        sections[0].classList.add('active');
+        header.classList.add('active');
+    }, 1000);
+
     // Mobile menu toggle
     hamburger.addEventListener('click', () => {
         menu.classList.toggle('active');

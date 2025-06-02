@@ -5,7 +5,16 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Personal Portfolio Website</title>
+	<meta name="description" content="Saviour Davies Akalia - FullStack Developer, E-Commerce Specialist, and Virtual Assistant. View my portfolio and get in touch for your next project.">
+	<meta name="keywords" content="FullStack Developer, Web Developer, E-Commerce, Virtual Assistant, Portfolio">
+	
+	<!-- Open Graph / Social Media Meta Tags -->
+	<meta property="og:title" content="Saviour Davies Akalia - Portfolio">
+	<meta property="og:description" content="FullStack Developer, E-Commerce Specialist, and Virtual Assistant">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://your-portfolio-url.com">
+	
+	<title>Saviour Davies Akalia - Portfolio</title>
 	<!-- boxicons -->
 	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 	<link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
@@ -20,18 +29,18 @@
 	<!-- navigation -->
 	<nav>
 		<div class="logo">
-			<a href="#">Saviour.</a>
+			<a href="#" aria-label="Home">Saviour.</a>
 		</div>
-		<button class="hamburger">
+		<button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
 			<i class='bx bx-menu menu-btn'></i>
 			<i class='bx bx-x close-btn'></i>
 		</button>
 		<ul class="menu">
-			<li style="--i:1"><a href="#home">Home</a></li>
-			<li style="--i:2"><a href="#services">Services</a></li>
-			<li style="--i:3"><a href="#resume">Resume</a></li>
-			<li style="--i:4"><a href="#portfolio">Portfolio</a></li>
-			<li style="--i:5"><a href="#contact">Contact</a></li>
+			<li style="--i:1"><a href="#home" aria-label="Go to home section">Home</a></li>
+			<li style="--i:2"><a href="#services" aria-label="Go to services section">Services</a></li>
+			<li style="--i:3"><a href="#resume" aria-label="Go to resume section">Resume</a></li>
+			<li style="--i:4"><a href="#portfolio" aria-label="Go to portfolio section">Portfolio</a></li>
+			<li style="--i:5"><a href="#contact" aria-label="Go to contact section">Contact</a></li>
 		</ul>
 	</nav>
 </header>
@@ -72,9 +81,10 @@
 			<a href="assets/cv/Saviour_Davies_Akalia_CV.pdf" class="btn" download>Download CV</a>
 			<div class="sci-icons">
 				<a href="https://github.com/SAVAGEAKALIA"><i class='bx bxl-github'></i></a>
-				<a href="#"><i class='bx bxl-facebook'></i></a>
-				<a href="#"><i class='bx bxl-instagram'></i></a>
-				<a href="#"><i class='bx bxl-twitter'></i></a>
+				<!-- <a href="#"><i class='bx bxl-facebook'></i></a> -->
+				<a href="https://wa.me/2348138860045" target="_blank"><i class='bx bxl-whatsapp'></i></a>
+				<!-- <a href="#"><i class='bx bxl-instagram'></i></a>
+				<a href="#"><i class='bx bxl-twitter'></i></a> -->
 				<a href="https://linkedin.com/in/saviourakalia"><i class='bx bxl-linkedin'></i></a>
 			</div>
 		</div>
@@ -484,8 +494,14 @@
 		</div>
 		
 		<div class="contact-box">
-			<form action="/submit-form" method="post">
+			<form action="https://api.web3forms.com/submit" method="POST">
 				<h2 class="heading">Contact <span>Me</span></h2>
+				
+				<!-- Web3Forms Access Key -->
+				<input type="hidden" name="access_key" value="7325a99d-7eae-43df-a82f-e9c64a651b97">
+				
+				<!-- Success page after submission -->
+				<input type="hidden" name="redirect" value="/thanks.html">
 				
 				<div class="field-box">
 					<fieldset>
